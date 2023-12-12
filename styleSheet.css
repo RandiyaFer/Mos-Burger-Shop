@@ -39,7 +39,7 @@
   top: 26px;
   left: 100px;
 }
-.all button{
+.Burger button{
     width: 98px;
     height: 44px;
     border-radius: 50px;
@@ -50,25 +50,6 @@
     color: white;
     font: 600 14px "Inter-SemiBold", sans-serif;
 }
-.all :hover {
-  color: var(--hover-color);
-  box-shadow: 0 0 10px white,
-  0 0 20px white;
-  cursor: pointer;
-}
-
-.Burger button{
-    width: 98px;
-    height: 44px;
-    border-radius: 50px;
-    background: #ffa92e;
-    position: absolute;
-    top: 30px;
-    color: white;
-    left: 240px;
-    font: 600 14px "Inter-SemiBold", sans-serif;
-}
-
 .Burger :hover {
   color: var(--hover-color);
   box-shadow: 0 0 10px white,
@@ -83,19 +64,38 @@
     background: #ffa92e;
     position: absolute;
     top: 30px;
+    color: white;
+    left: 240px;
+    font: 600 14px "Inter-SemiBold", sans-serif;
+}
+
+.SubMarine :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Fries button{
+    width: 98px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffa92e;
+    position: absolute;
+    top: 30px;
     left: 360px;
     color: white;
     font: 600 14px "Inter-SemiBold", sans-serif;
   }
 
-  .SubMarine :hover {
+  .Fries :hover {
     color: var(--hover-color);
     box-shadow: 0 0 10px white,
     0 0 20px white;
     cursor: pointer;
   }
 
-.Fries button{
+.Pasta button{
     width: 98px;
     height: 44px;
     border-radius: 50px;
@@ -107,14 +107,14 @@
     font: 600 14px "Inter-SemiBold", sans-serif;
 }
 
-.Fries :hover {
+.Pasta :hover {
   color: var(--hover-color);
   box-shadow: 0 0 10px white,
   0 0 20px white;
   cursor: pointer;
 }
 
-.Drinks button{
+.Chicken button{
     width: 98px;
     height: 44px;
     border-radius: 50px;
@@ -126,14 +126,14 @@
     font: 600 14px "Inter-SemiBold", sans-serif;
 }
 
-.Drinks :hover {
+.Chicken :hover {
   color: var(--hover-color);
   box-shadow: 0 0 10px white,
   0 0 20px white;
   cursor: pointer;
 }
 
-.Menu button{
+.Beverages button{
     width: 98px;
     height: 44px;
     border-radius: 50px;
@@ -145,7 +145,7 @@
     font: 600 14px "Inter-SemiBold", sans-serif;
 }
 
-.Menu :hover {
+.Beverages :hover {
   color: var(--hover-color);
   box-shadow: 0 0 10px white,
   0 0 20px white;
@@ -160,14 +160,14 @@
   position: absolute;
   top: 30px;
   left: 840px;
-  color: white;
+  color:black;
   font: 600 14px "Inter-SemiBold", sans-serif;
 }
 
 .Report :hover {
-  color: var(--hover-color);
-  box-shadow: 0 0 10px white,
-  0 0 20px white;
+  color: white;
+  box-shadow: 0 0 10px black,
+  0 0 20px black;
   cursor: pointer;
 }
 
@@ -179,27 +179,15 @@
   position: absolute;
   top: 30px;
   left: 960px;
-  color: white;
+  color: black;
   font: 600 14px "Inter-SemiBold", sans-serif;
 }
 
 .Storage :hover {
-  color: var(--hover-color);
-  box-shadow: 0 0 10px white,
-  0 0 20px white;
+  color: white;
+  box-shadow: 0 0 10px black,
+  0 0 20px black;
   cursor: pointer;
-}
-
-.cart{
-  width: 400px;
-  height: 550px; 
-  border-radius: 50px;
-  background: transparent;
-  position: absolute;
-  top: 26px;
-  left: 1100px;
-  box-shadow: 0 0 10px #ffa92e,
-  0 0 20px #ffa92e;
 }
 
 .pay button{
@@ -592,7 +580,7 @@
   top: 425px;
   left: 320px;
   color: white;
-  font: 600 20px "Inter-SemiBold", sans-serif;
+  font: 600 24px "Inter-SemiBold", sans-serif;
 }
 
 .op10 :hover {
@@ -607,13 +595,29 @@
   background-color: #ffa92e;
   width: 560px;
   height: 62px;
-  text-align: left;
   border-radius: 50px;
   border-color: white;
   border-width: 4px;
   position: absolute;
   top: 127px;
   left: 488px;
+}
+
+.Name h4 {
+  left: 20px;
+  position: absolute;
+  color: gray;
+}
+
+.Name label{
+  position: absolute;
+  top: 20px;
+  left: 137px;
+  width: 400px;
+  height: 37px;
+  background-color: transparent;
+  box-shadow: 0 0 20px black;
+  border-radius: 50px;
 }
 
 .Quantity input{
@@ -645,6 +649,23 @@
   left: 771px;
 }
 
+.Amount h4 {
+  left: 20px;
+  position: absolute;
+  color: gray;
+}
+
+.Amount label{
+  position: absolute;
+  top: 20px;
+  left: 87px;
+  width: 167px;
+  height: 37px;
+  background-color: transparent;
+  box-shadow: 0 0 20px black;
+  border-radius: 50px;
+}
+
 .manu{
   font: 600 20px "Inter-SemiBold", sans-serif;
   background-color: #ffa92e;
@@ -659,6 +680,35 @@
   left: 486px;
 }
 
+.manu h4 {
+  left: 20px;
+  position: absolute;
+  color: gray;
+}
+
+.manu label{
+  position: absolute;
+  top: 20px;
+  left: 87px;
+  width: 167px;
+  height: 37px;
+  background-color: transparent;
+  box-shadow: 0 0 20px black;
+  border-radius: 50px;
+}
+
+.cart{
+  width: 400px;
+  height: 550px; 
+  border-radius: 50px;
+  background:  #ffa92e;
+  position: absolute;
+  top: 26px;
+  left: 1100px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+}
+
 .exp{
 font: 600 20px "Inter-SemiBold", sans-serif;
 background-color: #ffa92e;
@@ -671,4 +721,25 @@ border-width: 4px;
 position: absolute;
 top: 273px;
 left: 771px;
+}
+
+.exp h4 {
+  left: 20px;
+  position: absolute;
+  color: gray;
+}
+
+.exp label{
+  position: absolute;
+  top: 20px;
+  left: 87px;
+  width: 167px;
+  height: 37px;
+  background-color: transparent;
+  box-shadow: 0 0 20px black;
+  border-radius: 50px;
+}
+.tri td{
+  position: absolute;
+  left: 300px;
 }
