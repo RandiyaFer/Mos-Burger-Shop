@@ -1,0 +1,674 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  /* .rect{
+    width: 1535px;
+    height: 730px;
+    filter: blur(3px);
+    position: relative;
+  } */
+
+  body{
+    background-color: black;
+  }
+.logo {
+    color: white;
+    width: 55px;
+    height: 52px;
+    position: absolute;
+    color: white;
+    background-color: white;
+    top: 26px;
+    left: 24px;
+}
+
+.image-1 {
+  position: absolute;
+  width: 55px;
+  height: 52px;
+}
+
+
+.rect9 {
+  background: #ffa92e;
+  border-radius: 83px;
+  width: 978px;
+  height: 52px;
+  position: absolute;
+  top: 26px;
+  left: 100px;
+}
+.all button{
+    width: 98px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffa92e;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    color: white;
+    font: 600 14px "Inter-SemiBold", sans-serif;
+}
+.all :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Burger button{
+    width: 98px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffa92e;
+    position: absolute;
+    top: 30px;
+    color: white;
+    left: 240px;
+    font: 600 14px "Inter-SemiBold", sans-serif;
+}
+
+.Burger :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.SubMarine button{
+    width: 98px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffa92e;
+    position: absolute;
+    top: 30px;
+    left: 360px;
+    color: white;
+    font: 600 14px "Inter-SemiBold", sans-serif;
+  }
+
+  .SubMarine :hover {
+    color: var(--hover-color);
+    box-shadow: 0 0 10px white,
+    0 0 20px white;
+    cursor: pointer;
+  }
+
+.Fries button{
+    width: 98px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffa92e;
+    position: absolute;
+    top: 30px;
+    left: 480px;
+    color: white;
+    font: 600 14px "Inter-SemiBold", sans-serif;
+}
+
+.Fries :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Drinks button{
+    width: 98px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffa92e;
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    color: white;
+    font: 600 14px "Inter-SemiBold", sans-serif;
+}
+
+.Drinks :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Menu button{
+    width: 98px;
+    height: 44px;
+    border-radius: 50px;
+    background: #ffa92e;
+    position: absolute;
+    top: 30px;
+    left: 720px;
+    color: white;
+    font: 600 14px "Inter-SemiBold", sans-serif;
+}
+
+.Menu :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Report button{
+  width: 98px;
+  height: 44px;
+  border-radius: 50px;
+  background: #ffa92e;
+  position: absolute;
+  top: 30px;
+  left: 840px;
+  color: white;
+  font: 600 14px "Inter-SemiBold", sans-serif;
+}
+
+.Report :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Storage button{
+  width: 98px;
+  height: 44px;
+  border-radius: 50px;
+  background: #ffa92e;
+  position: absolute;
+  top: 30px;
+  left: 960px;
+  color: white;
+  font: 600 14px "Inter-SemiBold", sans-serif;
+}
+
+.Storage :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.cart{
+  width: 400px;
+  height: 550px; 
+  border-radius: 50px;
+  background: transparent;
+  position: absolute;
+  top: 26px;
+  left: 1100px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+}
+
+.pay button{
+  width: 400px;
+  height: 50px;
+  border-radius: 50px;
+  background:  #ffa92e;
+  position: absolute;
+  top: 660px;
+  left: 1100px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  font: 600 32px "Inter-SemiBold", sans-serif;
+  color: white;
+}
+
+.pay :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Storae{
+  width: 400px;
+  height: 590px;
+  border-radius: 50px;
+  background: transparent;
+  position: absolute;
+  top: 116px;
+  left: 40px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+}
+
+.Item{
+  width: 580px;
+  height: 340px;
+  border-radius: 50px;
+  background: transparent;
+  position: absolute;
+  top: 116px;
+  left: 480px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+}
+
+.op1 button{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: #ffa92e;
+  position: absolute;
+  top: 576px;
+  left: 480px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+}
+
+.op1 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.op2 button{
+  width: 70px;
+  height: 50px;
+  border-radius: 20px;
+  background: #ffa92e;
+  position: absolute;
+  top: 576px;
+  left: 590px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+}
+
+.op2 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.op3 button{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: #ffa92e;
+  position: absolute;
+  top: 576px;
+  left: 730px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+}
+
+.op3 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.op4 button{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: #ffa92e;
+  position: absolute;
+  top: 576px;
+  left: 855px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+}
+
+.op4 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.op5 button{
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  background: #ffa92e;
+  position: absolute;
+  top: 576px;
+  left: 980px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 12px "Inter-SemiBold", sans-serif;
+}
+
+.op5 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.op6 button{
+  width: 550px;
+  height: 50px;
+  border-radius: 20px;
+  background: #ffa92e;
+  position: absolute;
+  top: 660px;
+  left: 480px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 32px "Inter-SemiBold", sans-serif;
+}
+
+.op6 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.item{
+  position: absolute;
+  top: 539px;
+  left: 80px;
+  color: black;
+}
+
+.item input{
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  color: black;
+  width: 180px;
+  text-align: left;
+  border-radius: 20px;
+  border-color:white;
+  border-width: 4px;
+  outline: none;
+}
+.item input :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+
+}
+
+
+.itemBox{
+  width: 390px;
+  height: 80px;
+  border-radius: 50px;
+  background: transparent;
+  position: absolute;
+  top: 515px;
+  left: 45px;
+  box-shadow: 0 0 10px white,
+  0 0 20px  white;
+}
+
+.itemBox:hover{
+  color: var(--hover-color);
+  box-shadow: 0 0 30px white,
+  0 0 40px white;
+  cursor: pointer;
+}
+
+.search button{
+  width: 90px;
+  height: 35px;
+  border-radius: 20px;
+  background: #ffa92e;
+  position: absolute;
+  top: 539px;
+  left: 290px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+}
+
+.search :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.cusBox{
+  width: 390px;
+  height: 370px;
+  border-radius: 50px;
+  background: transparent;
+  position: absolute;
+  top: 120px;
+  left: 45px;
+  box-shadow: 0 0 10px white,
+  0 0 20px  white;
+}
+
+.itemBox2{
+  width: 390px;
+  height: 80px;
+  border-radius: 50px;
+  background: transparent;
+  position: absolute;
+  top: 618px;
+  left: 45px;
+  box-shadow: 0 0 10px white,
+  0 0 20px  white;
+}
+
+.op7 button{
+  width: 380px;
+  height: 75px;
+  border-radius: 50px;
+  background: #ffa92e;
+  position: absolute;
+  top: 621px;
+  left: 50px;
+  box-shadow: 0 0 10px #ffa92e,
+  0 0 20px #ffa92e;
+  color: white;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+}
+
+.op7 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.op8 button{
+  width: 360px;
+  height: 40px;
+  border-radius: 50px;
+  background: #ffa92e;
+  position: absolute;
+  top: 195px;
+  left: 60px;
+  color: white;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+}
+
+.op8 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.op9 button{
+  width: 100px;
+  height: 60px;
+  border-radius: 50px;
+  background: #ffa92e;
+  position: absolute;
+  top: 125px;
+  left: 320px;
+  color: white;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+}
+
+.op9 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.cus input{
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  color: black;
+  width: 240px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  border-color:white;
+  border-width: 4px;
+  outline: none;
+  position: absolute;
+  top: 125px;
+  left: 60px;
+}
+.cus input :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+}
+
+.id{
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  color:white;
+  width:180px;
+  height: 30px;
+  text-align: left;
+  border-radius: 50px;
+  border-color:white;
+  border-width: 4px;
+  position: absolute;
+  top: 265px;
+  left: 64px;
+}
+
+.user{
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  color:white;
+  width:180px;
+  height: 30px;
+  text-align: left;
+  border-radius: 50px;
+  border-color:white;
+  border-width: 4px;
+  position: absolute;
+  top: 330px;
+  left: 64px;
+}
+
+.status{
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  color: white;
+  width: 180px;
+  height: 50px;
+  text-align: left;
+  border-radius: 50px;
+  border-color: white;
+  border-width: 4px;
+  position: absolute;
+  top: 401px;
+  left: 64px;
+}
+
+.op10 button{
+  width: 100px;
+  height: 60px;
+  border-radius: 50px;
+  background: #ffa92e;
+  position: absolute;
+  top: 425px;
+  left: 320px;
+  color: white;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+}
+
+.op10 :hover {
+  color: var(--hover-color);
+  box-shadow: 0 0 10px white,
+  0 0 20px white;
+  cursor: pointer;
+}
+
+.Name {
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  background-color: #ffa92e;
+  width: 560px;
+  height: 62px;
+  text-align: left;
+  border-radius: 50px;
+  border-color: white;
+  border-width: 4px;
+  position: absolute;
+  top: 127px;
+  left: 488px;
+}
+
+.Quantity input{
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  background-color: white;
+  width: 272px;
+  height: 52px;
+  text-align: center;
+  border-radius: 50px;
+  border-color: white;
+  border-width: 4px;
+  outline: none;
+  position: absolute;
+  top: 200px;
+  left: 486px;
+}
+
+.Amount {
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  background-color: #ffa92e;
+  width: 280px;
+  height: 62px;
+  text-align: left;
+  border-radius: 50px;
+  border-color: white;
+  border-width: 4px;
+  position: absolute;
+  top: 200px;
+  left: 771px;
+}
+
+.manu{
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  background-color: #ffa92e;
+  width: 280px;
+  height: 62px;
+  text-align: left;
+  border-radius: 50px;
+  border-color: white;
+  border-width: 4px;
+  position: absolute;
+  top: 273px;
+  left: 486px;
+}
+
+.exp{
+font: 600 20px "Inter-SemiBold", sans-serif;
+background-color: #ffa92e;
+width: 280px;
+height: 62px;
+text-align: left;
+border-radius: 50px;
+border-color: white;
+border-width: 4px;
+position: absolute;
+top: 273px;
+left: 771px;
+}
